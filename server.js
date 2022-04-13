@@ -39,7 +39,7 @@ app.use('/api/search', productSearchRoutes);
 
 
 const port = process.env.PORT || '3030';
-app.use(express.static('GreenFarm'));
+//app.use(express.static('GreenFarm'));
 
 app.listen(port , err => {
   console.log('Magic happens on port awesome ' + port);
